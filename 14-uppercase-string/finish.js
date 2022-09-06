@@ -12,3 +12,18 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const myString = 'любая строка';
+
+console.log(myString instanceof String);
+console.log(typeof myString);
+
+const myStringToUppercase = myString.toUpperCase();
+
+console.log(myStringToUppercase);
+
+// через экземпляр
+// const myNewString = new String("любая новая строка");
+// console.log(myNewString instanceof String);
+// console.log(typeof myNewString);
+// console.log(myNewString.length);
