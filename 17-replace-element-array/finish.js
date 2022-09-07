@@ -8,3 +8,8 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+let myArr = ['str', undefined, null, true];
+console.log(myArr);
+myArr[1] = 'hello';
+console.log(myArr);

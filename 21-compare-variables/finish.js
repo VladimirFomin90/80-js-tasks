@@ -10,8 +10,17 @@ let myVariable1 = 10
 let myVariable2 = '5'
 
 // Напишите код здесь
+// 1 вариант конвертации строки в число
+// console.log(parseInt('23'));
+// console.log(typeof parseInt('23'));
+
+// 2 вариант конвертации строки в число
+// console.log(+'32');
+// console.log(typeof +'32');
+
 
 myVariable1 = '20'
 myVariable2 = 100
 
 // Напишите код здесь
+

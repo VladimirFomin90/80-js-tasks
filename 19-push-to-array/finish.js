@@ -6,3 +6,10 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const array = [13, undefined, 'terminal'];
+console.log(array);
+
+array.push(true, null);
+console.log(array);
+console.log(array.length);

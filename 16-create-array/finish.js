@@ -6,3 +6,8 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+let arr = [null, 'second', 4];
+console.log(arr[0]);
+console.log(arr.length); 
+// /* или */  console.log(arr['length']);
