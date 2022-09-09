@@ -3,12 +3,14 @@
  * Измените код так, чтобы ошибка исчезла
  */
 
-const myFavoriteAnimal = 'Monkey'
+let myFavoriteAnimal = 'Monkey'
+// замена const на let
 
 console.log(myFavoriteAnimal)
 // 'Monkey'
 
-const myFavoriteAnimal = 'Cat'
+myFavoriteAnimal = 'Cat'
+// удалил const
 
 console.log(myFavoriteAnimal)
 // 'Cat'
