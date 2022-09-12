@@ -18,4 +18,10 @@ const postsJSON = [
 
 const postsJS = postsJSON.map((post) => JSON.parse(post));
 
-console.log(postsJS);
+// или 2 вариант записи
+// const postsJS = postsJSON.map(JSON.parse);
+
+// console.log(postsJS);
+console.log(postsJS[1].postId);
+
+console.log(postsJS[postsJS.length - 1].commentsQuantity);
