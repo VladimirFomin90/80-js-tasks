@@ -8,6 +8,16 @@
  * 3. Также верните эту сумму как результат функции
  */
 
+function sumNumbers() {
+    let sumNum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+    sumNum = sumNum + arguments[i];
+    }
+    console.log(sumNum);
+
+    return sumNum;
+}
+
 sumNumbers(1, 3)
 // 4
 
