@@ -8,6 +8,15 @@ const a = [1, 2, 3]
 
 // Напишите код здесь
 
+// c помощью spread оператора
+const b = [...a];
+
+// 
+// const b = JSON.parse(JSON.stringify(a)); // глубокая копия, вложенные ссылки не сохраняются, первые 2 метода предпочтительнее
+
+// с помощью метода from
+// const b = Array.from(a);
+
 b.push('newElement')
 
 console.log(a)
